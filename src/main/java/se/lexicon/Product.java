@@ -1,5 +1,8 @@
 package se.lexicon;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Product {
 
     private String productName;
@@ -34,6 +37,12 @@ public class Product {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    public static void main(String[] args) {
+
+
+
     }
 
 }
